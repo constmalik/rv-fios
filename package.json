@@ -1,0 +1,23 @@
+{
+  "name": "rv-fios",
+  "version": "1.0.0",
+  "description": "Fios holiday offer website. Two versions desktop and mobile/responsive version.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maliklorenzo/rv-fios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maliklorenzo/rv-fios/issues"
+  },
+  "homepage": "https://github.com/maliklorenzo/rv-fios#readme",
+  "dependencies": {
+    "sass": "^1.0.0-beta.4",
+    "zurb-foundation-5": "^5.4.7"
+  }
+}
