@@ -1,0 +1,43 @@
+.section--banner {
+    .banner-column {
+        padding: 0;
+    }
+    .banner-text {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 0;
+        padding: 22px 0;
+        .fa-home {
+            color: #959595;
+        }
+        a {
+            color: #CD040B;
+        }
+    }
+}
+.section--hero {
+    background-image: url(../img/hero-bg.png);
+    background-size: 1500px;
+    background-position: center right;
+    background-repeat: no-repeat;    
+    .hero-wrap {
+        padding-top: 88px;
+        span {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 13px;
+        }
+        .hero-top-wrap {
+            h2 {
+                font-size: 60px;
+                font-weight: bold;
+                color: white;
+            }
+            P {
+                font-size: 18px;
+                color: white;
+            }
+        }
+    }
+}

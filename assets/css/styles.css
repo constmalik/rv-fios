@@ -2849,7 +2849,8 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 .header {
-  margin-top: 12px; }
+  margin-top: 12px;
+  border-bottom: 2px solid #F2F2F2; }
   .header .nav-wrap .fios-logo-wrap {
     margin-top: 36px; }
   .header .aux-nav__links-left {
@@ -2867,7 +2868,7 @@ th.hide-for-touch {
       font-size: 12px; }
   .header .main-nav__links {
     float: left;
-    line-height: 6; }
+    margin-top: 55px; }
     .header .main-nav__links a {
       font-size: 24px;
       font-weight: bold;
@@ -2884,5 +2885,69 @@ th.hide-for-touch {
 
 .row {
   max-width: 960px; }
+
+.section--banner .banner-column {
+  padding: 0; }
+.section--banner .banner-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 22px 0; }
+  .section--banner .banner-text .fa-home {
+    color: #959595; }
+  .section--banner .banner-text a {
+    color: #CD040B; }
+
+.section--hero {
+  background-image: url(../img/hero-bg.png);
+  background-size: 1500px;
+  background-position: center right;
+  background-repeat: no-repeat; }
+  .section--hero .hero-wrap {
+    padding-top: 88px; }
+    .section--hero .hero-wrap span {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 13px; }
+    .section--hero .hero-wrap .hero-top-wrap h2 {
+      font-size: 60px;
+      font-weight: bold;
+      color: white; }
+    .section--hero .hero-wrap .hero-top-wrap P {
+      font-size: 18px;
+      color: white; }
+
+.hero-article {
+  width: 315px;
+  border-top: 2px solid white;
+  margin-bottom: 20px; }
+  .hero-article__title {
+    padding-top: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0; }
+  .hero-article__price {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0; }
+  .hero-article__text {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 17px; }
+  .hero-article__list li {
+    color: white;
+    font-size: 14px;
+    font-weight: bold; }
+
+.button {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  border-radius: 100px;
+  padding: 17px 49px 19px 58px; }
 
 /*# sourceMappingURL=styles.css.map */

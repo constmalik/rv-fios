@@ -1,5 +1,6 @@
 .header {
     margin-top: 12px;
+    border-bottom: 2px solid #F2F2F2;
     .nav-wrap {
         .fios-logo-wrap {
             margin-top: 36px;
@@ -29,7 +30,7 @@
     .main-nav {
         &__links {
             float: left;
-            line-height: 6;
+            margin-top: 55px;
             a {
                 font-size: 24px;
                 font-weight: bold;

@@ -1,0 +1,30 @@
+.hero-article {
+    width: 315px;
+    border-top: 2px solid white;
+    margin-bottom: 20px;
+    &__title {
+        padding-top: 12px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+    &__price {
+        color: white;
+        font-size: 48px;
+        font-weight: bold;
+        margin: 0;
+    }
+    &__text {
+        color: white;
+        font-size: 12px;
+        margin-bottom: 17px;
+    }
+    &__list {
+        li {
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
