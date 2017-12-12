@@ -27,4 +27,25 @@
             font-weight: bold;
         }
     }
+}//.hero-article
+.bundles-article {
+    // padding-top: 118px;
+    // padding-bottom: 180px;
+    &__title {
+        margin-top: 118px;
+        margin-bottom: 0;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    &__text {
+        font-size: 20px;
+        color: #333333;
+        margin: 0;
+    }
+    &__link {
+        a {
+            color: #CD040B;
+            font-weight: bold;
+        }
+    }
 }

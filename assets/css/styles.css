@@ -2902,7 +2902,8 @@ th.hide-for-touch {
   background-image: url(../img/hero-bg.png);
   background-size: 1500px;
   background-position: center right;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  height: 893px; }
   .section--hero .hero-wrap {
     padding-top: 88px; }
     .section--hero .hero-wrap span {
@@ -2917,6 +2918,36 @@ th.hide-for-touch {
     .section--hero .hero-wrap .hero-top-wrap P {
       font-size: 18px;
       color: white; }
+
+.section--bundles {
+  background-image: url(../img/bundle-bg.png);
+  background-size: 1500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 635px; }
+
+.section--verizon-fios {
+  background-color: #F6F6F6;
+  padding-top: 88px;
+  padding-bottom: 106px; }
+  .section--verizon-fios .verizon-fios-wrap .columns-wrap h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0; }
+  .section--verizon-fios .verizon-fios-wrap .columns-wrap p {
+    font-size: 20px; }
+  .section--verizon-fios .customize-fios-wrap .columns-wrap {
+    padding-left: 0; }
+    .section--verizon-fios .customize-fios-wrap .columns-wrap div {
+      border-top: 2px solid black; }
+    .section--verizon-fios .customize-fios-wrap .columns-wrap h3 {
+      padding-top: 4px;
+      font-size: 24px;
+      font-weight: bold; }
+    .section--verizon-fios .customize-fios-wrap .columns-wrap p {
+      color: #333333;
+      font-size: 14px;
+      line-height: 1.2; }
 
 .hero-article {
   width: 315px;
@@ -2941,6 +2972,19 @@ th.hide-for-touch {
     color: white;
     font-size: 14px;
     font-weight: bold; }
+
+.bundles-article__title {
+  margin-top: 118px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: bold; }
+.bundles-article__text {
+  font-size: 20px;
+  color: #333333;
+  margin: 0; }
+.bundles-article__link a {
+  color: #CD040B;
+  font-weight: bold; }
 
 .button {
   font-size: 18px;
