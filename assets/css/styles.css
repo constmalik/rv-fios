@@ -2900,31 +2900,38 @@ th.hide-for-touch {
 
 .section--hero {
   background-image: url(../img/hero-bg.png);
-  background-size: 1500px;
+  background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
-  height: 893px; }
-  .section--hero .hero-wrap {
-    padding-top: 88px; }
-    .section--hero .hero-wrap span {
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 13px; }
-    .section--hero .hero-wrap .hero-top-wrap h2 {
-      font-size: 60px;
-      font-weight: bold;
-      color: white; }
-    .section--hero .hero-wrap .hero-top-wrap P {
-      font-size: 18px;
-      color: white; }
+  padding-top: 88px;
+  padding-bottom: 120px; }
+  .section--hero .hero-wrap .hero-top-wrap h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white; }
+  .section--hero .hero-wrap .hero-top-wrap P {
+    font-size: 18px;
+    color: white; }
+  .section--hero .hero-bottom-row span {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 13px; }
+  .section--hero .hero-bottom-row .hero-top-wrap h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white; }
+  .section--hero .hero-bottom-row .hero-top-wrap P {
+    font-size: 18px;
+    color: white; }
 
 .section--bundles {
   background-image: url(../img/bundle-bg.png);
-  background-size: 1500px;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 635px; }
+  padding-top: 118px;
+  padding-bottom: 180px; }
 
 .section--verizon-fios {
   background-color: #F6F6F6;
@@ -3016,6 +3023,26 @@ th.hide-for-touch {
       line-height: 1.2;
       margin-bottom: 42px; }
 
+.section--ready {
+  background-image: url(../img/ready-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 118px;
+  padding-bottom: 97px; }
+  .section--ready .ready-row .columns-wrap h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .section--ready .ready-row .columns-wrap p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 36px; }
+  .section--ready .ready-row .columns-wrap a {
+    color: white;
+    font-weight: bold; }
+
 .hero-article {
   width: 315px;
   border-top: 2px solid white;
@@ -3060,5 +3087,56 @@ th.hide-for-touch {
   color: black;
   border-radius: 100px;
   padding: 17px 49px 19px 58px; }
+
+.footer {
+  padding-top: 89px; }
+  .footer .top-footer {
+    padding-bottom: 85px; }
+    .footer .top-footer__title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 0; }
+      .footer .top-footer__title span {
+        color: #CD040B; }
+    .footer .top-footer__text {
+      font-size: 20px;
+      margin-bottom: 0; }
+    .footer .top-footer__subtext {
+      font-size: 12px; }
+  .footer .bottom-footer .columns-wrap .bottom-footer-search {
+    font-size: 18px;
+    font-weight: bold;
+    color: #CD040B;
+    margin-bottom: 24px; }
+  .footer .bottom-footer .columns-wrap input {
+    width: 100%;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0; }
+  .footer .bottom-footer .columns-wrap .copy {
+    font-size: 12px;
+    color: #959595; }
+  .footer .bottom-footer .columns-wrap .inline-list li {
+    font-size: 12px;
+    color: #959595; }
+  .footer .bottom-footer .search-wrap {
+    margin-bottom: 58px; }
+  .footer .bottom-footer .footer-nav-row .columns-wrap {
+    padding-left: 30px;
+    margin-bottom: 59px; }
+    .footer .bottom-footer .footer-nav-row .columns-wrap .footer-nav-wrap {
+      padding: 0; }
+      .footer .bottom-footer .footer-nav-row .columns-wrap .footer-nav-wrap h4 {
+        font-size: 18px;
+        font-weight: bold; }
+      .footer .bottom-footer .footer-nav-row .columns-wrap .footer-nav-wrap ul {
+        margin: 0; }
+        .footer .bottom-footer .footer-nav-row .columns-wrap .footer-nav-wrap ul li {
+          list-style-type: none;
+          color: #333333;
+          font-size: 12px; }
+  .footer .bottom-footer .disclosure-wrap {
+    margin-top: 96px;
+    margin-bottom: 62px; }
 
 /*# sourceMappingURL=styles.css.map */

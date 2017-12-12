@@ -17,12 +17,25 @@
 }
 .section--hero {
     background-image: url(../img/hero-bg.png);
-    background-size: 1500px;
+    background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;   
-    height: 893px; 
-    .hero-wrap {
-        padding-top: 88px;
+    padding-top: 88px;
+    padding-bottom: 120px;
+    .hero-wrap {     
+        .hero-top-wrap {
+            h2 {
+                font-size: 60px;
+                font-weight: bold;
+                color: white;
+            }
+            P {
+                font-size: 18px;
+                color: white;
+            }
+        }
+    }
+    .hero-bottom-row {
         span {
             color: white;
             font-size: 18px;
@@ -40,14 +53,15 @@
                 color: white;
             }
         }
-    }
+    }    
 }
 .section--bundles {
     background-image: url(../img/bundle-bg.png);
-    background-size: 1500px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;   
-    height: 635px;     
+    padding-top: 118px;
+    padding-bottom: 180px;
 }
 
 .section--verizon-fios {
@@ -183,5 +197,34 @@
                 margin-bottom: 42px;
             }
         }        
+    }
+}
+
+.section--ready {
+    background-image: url(../img/ready-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    padding-top: 118px;
+    padding-bottom: 97px;
+    .ready-row {
+        .columns-wrap {
+            h2 {
+                color: white;
+                font-size: 60px;
+                font-weight: bold;
+                margin-bottom: 20px;                
+            }
+            p {
+                color: white;
+                font-size: 20px;
+                // font-weight: bold;
+                margin-bottom: 36px;                
+            }
+            a {
+                color: white;
+                font-weight: bold;
+            }
+        }
     }
 }
