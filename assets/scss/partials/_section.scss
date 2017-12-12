@@ -85,3 +85,74 @@
         }
     }
 }
+
+.section--upgrade {
+    padding-top: 88px;
+    padding-bottom: 106px;
+    .upgrade-wrap {
+        .columns-wrap {
+            h2 {
+                font-size: 60px;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+    .upgrade-fiber-wrap {
+        .columns-wrap {
+            padding-left: 0;
+            div {
+                border-top: 2px solid black;
+            }
+            h3 {
+                padding-top: 4px;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            p {
+                color: #333333;
+                font-size: 14px;
+                line-height: 1.2;
+            }
+        }        
+    }
+}
+
+.section--why-fios {
+    background-color: #F6F6F6;
+    padding-top: 88px;
+    padding-bottom: 106px;
+    .verizon-fios-wrap {
+        .columns-wrap {
+            h2 {
+                font-size: 60px;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+    .customize-fios-wrap {
+        .columns-wrap {
+            padding-left: 0;
+            div {
+                border-top: 2px solid black;
+            }
+            h3 {
+                padding-top: 4px;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            p {
+                color: #333333;
+                font-size: 14px;
+                line-height: 1.2;
+            }
+        }
+    }
+}
