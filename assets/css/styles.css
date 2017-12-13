@@ -2929,9 +2929,7 @@ th.hide-for-touch {
   background-image: url(../img/bundle-bg.png);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  padding-top: 118px;
-  padding-bottom: 180px; }
+  background-repeat: no-repeat; }
 
 .section--verizon-fios {
   background-color: #F6F6F6;
@@ -3067,18 +3065,20 @@ th.hide-for-touch {
     font-size: 14px;
     font-weight: bold; }
 
-.bundles-article__title {
-  margin-top: 118px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: bold; }
-.bundles-article__text {
-  font-size: 20px;
-  color: #333333;
-  margin: 0; }
-.bundles-article__link a {
-  color: #CD040B;
-  font-weight: bold; }
+.bundles-article {
+  padding-bottom: 180px; }
+  .bundles-article__title {
+    margin-top: 118px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: bold; }
+  .bundles-article__text {
+    font-size: 20px;
+    color: #333333;
+    margin: 0; }
+  .bundles-article__link a {
+    color: #CD040B;
+    font-weight: bold; }
 
 .button {
   font-size: 18px;
