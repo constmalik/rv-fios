@@ -5,4 +5,11 @@
     color: black;
     border-radius: 100px;
     padding: 17px 49px 19px 58px;
+    @media screen and (max-width: 320px) {
+        height: 54px;
+        width: 290px;
+        // padding: 17px 102px 19px 111px;
+        // margin-right: 10px;
+        // margin-left: 10px;
+    }
 }

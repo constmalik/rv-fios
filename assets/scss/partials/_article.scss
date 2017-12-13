@@ -27,6 +27,10 @@
             font-weight: bold;
         }
     }
+    @media screen and (max-width: 320px) {
+        border-top: none;
+        width: auto;
+    }
 }//.hero-article
 .bundles-article {
     padding-bottom: 180px;
@@ -46,5 +50,15 @@
             color: #CD040B;
             font-weight: bold;
         }
+    }
+}//.bundles-article
+.gig-article {
+    &__title {
+        font-size: 36px;
+        font-weight: bold;
+        color: black;
+    }
+    &__text {
+        font-size: 18px;
     }
 }

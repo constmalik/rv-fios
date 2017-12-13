@@ -6,6 +6,32 @@
             margin-top: 36px;
         }
     }
+    .nav-wrap-small {
+        line-height: 1.2;
+        .bar-wrap {
+            line-height: 2;
+            display: inline;
+            .fa-bars {
+                font-size: 18px;
+                color: #747676;
+            }
+        }
+        .fios-logo-wrap {
+            margin-bottom: 9px;
+            margin-left: 20px;
+        }
+        .phone-wrap {
+            .fa-phone {
+                font-size: 18px;
+                color: #D52B1E;
+            }
+            p {
+                font-size: 18px;
+                font-weight: bold;
+                display: inline;
+            }
+        }
+    }
     .aux-nav {
         // margin-bottom: 62px;
         &__links-left {
@@ -49,5 +75,9 @@
                 font-weight: bold;
             }
         }
+    }
+    @media screen and (max-width:320px) {
+        border-bottom: none;
+        margin-bottom: 36px;
     }
 }
