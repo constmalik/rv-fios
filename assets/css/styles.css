@@ -3089,7 +3089,8 @@ th.hide-for-touch {
   padding: 17px 49px 19px 58px; }
 
 .footer {
-  padding-top: 89px; }
+  padding-top: 89px;
+  padding-bottom: 120px; }
   .footer .top-footer {
     padding-bottom: 85px; }
     .footer .top-footer__title {
