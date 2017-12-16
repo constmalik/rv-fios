@@ -11,6 +11,8 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -105,10 +107,21 @@
         </div>
     </section>
 
-    <section class="section section--tabs">
-        <div class="row tabs-row">
+    <section class="section section--category">
+        <div class="row category-row">
             <div class="columns large-12 columns-wrap">
-                <ul class="inline-list tabs-list">
+                <ul class="inline-list category-list hidden-for-small-only">
+                    <li>
+                        <a href="">Triple Plays</a>
+                    </li>
+                    <li>
+                        <a href="">Double Plays</a>
+                    </li>
+                    <li>
+                        <a href="">Internet only</a>
+                    </li>
+                </ul>
+                <ul class="inline-list category-list hidden-for-large-only">
                     <li>
                         <a href="">Bundles</a>
                     </li>
@@ -121,7 +134,148 @@
     </section>
 
     <section class="section section--pricing">
-        
+        <div class="row slick-wrap">
+            <div class="columns large-3 columns-wrap">
+                <article class="card-article">
+                    <div class="card-article__section-price">
+                        <h3 class="card-article__section-price--subtitle">150/150 Mbps Internet,Custom TV & Home Phone</h3>
+                        <span class="card-article__section-price--price">$79.99/mo</span>
+                        <p class="card-article__section-price--text">for 2 yrs. w/ 2-yr. agmt., + taxes, RSN, FDV, & other fees & $12/mo. STB equip. charge
+                            <sup>1</sup>
+                        </p>
+                    </div>
+                    <div class="card-article__section-internet">
+                        <h4 class="card-article__section-internet--title">150/150 Mbps Internet</h4>
+                        <span class="card-article__section-internet--subtext">Ideal for 8 devices.</span>
+                        <p class="card-article__section-internet--text">Download a 2-hr. HD video (5GB) in 4.6 min.<sup>2</sup></p>
+                    </div>
+                    <div class="card-article__section-tv">
+                        <h4 class="card-article__section-tv--title">Custom TV</h4>
+                        <p class="card-article__section-tv--text">Pick a package that fits your lifestyle.</p>
+                        <span class="card-article__section-tv--list-title">View channel lineup</span>
+                        <ul class="inline-list tv-list">
+                            <li>
+                                <img src="./assets/img/showtime-logo.svg" alt="">
+                                <span>SHOWTIME® included for 2 years.</span>
+                            </li>
+                        </ul>
+                        <p class="card-article__section-tv--subtext">Multi-room DVR Enhanced  Service free for 2 years.</p>
+                    </div>
+                    <div class="card-article__section-phone">
+                        <h4 class="card-article__section-phone--title">Home Phone</h4>
+                        <p class="card-article__section-phone--text">Unlimited nationwide calling.</p>
+                    </div>        
+                    <div class="card-article__footer">
+                        <p class="card-article__footer--text">2-year price guarantee</p>
+                    </div>
+                </article>
+            </div>
+            <div class="columns large-3 columns-wrap">
+                <article class="card-article">
+                    <div class="card-article__section-price">
+                        <h3 class="card-article__section-price--subtitle">150/150 Mbps Internet, Preferred TV & Home Phone</h3>
+                        <span class="card-article__section-price--price">$94.99/mo</span>
+                        <p class="card-article__section-price--text">for 2 yrs. w/ 2-yr. agmt., + taxes, RSN, FDV, & other fees & $12/mo. STB equip. charge
+                            <sup>4</sup>
+                        </p>
+                    </div>
+                    <div class="card-article__section-internet">
+                        <h4 class="card-article__section-internet--title">150/150 Mbps Internet</h4>
+                        <span class="card-article__section-internet--subtext">Ideal for 8 devices.</span>
+                        <p class="card-article__section-internet--text">Download a 2-hr. HD video (5GB) in 4.6 min.<sup>2</sup></p>
+                    </div>
+                    <div class="card-article__section-tv">
+                        <h4 class="card-article__section-tv--title">Custom TV</h4>
+                        <p class="card-article__section-tv--text">Pick a package that fits your lifestyle.</p>
+                        <span class="card-article__section-tv--list-title">View channel lineup</span>
+                        <ul class="inline-list tv-list">
+                            <li>
+                                <img src="./assets/img/showtime-logo.svg" alt="">
+                                <span>SHOWTIME® included for 2 years.</span>
+                            </li>
+                        </ul>
+                        <p class="card-article__section-tv--subtext">Multi-room DVR Enhanced Service free for 2 years.</p>
+                    </div>
+                    <div class="card-article__section-phone">
+                        <h4 class="card-article__section-phone--title">Home Phone</h4>
+                        <p class="card-article__section-phone--text">Unlimited nationwide calling.</p>
+                    </div>  
+                    <div class="card-article__footer">
+                        <p class="card-article__footer--text">2-year price guarantee</p>
+                    </div>
+                </article>
+            </div>
+            <div class="columns large-3 columns-wrap">
+                <article class="card-article">
+                    <div class="card-article__section-price">
+                        <h3 class="card-article__section-price--subtitle">300/300 Mbps Internet, Custom TV & Home Phone</h3>
+                        <span class="card-article__section-price--price">$119.99/mo</span>
+                        <p class="card-article__section-price--text">for 2 yrs. w/ 2-yr. agmt., + taxes, RSN, FDV, & other fees & $12/mo. STB equip. charge
+                            <sup>6</sup>
+                        </p>
+                    </div>
+                    <div class="card-article__section-internet">
+                        <h4 class="card-article__section-internet--title">300/300 Mbps Internet</h4>
+                        <span class="card-article__section-internet--subtext">Ideal for 8 devices.</span>
+                        <p class="card-article__section-internet--text">Download a 2-hr. HD video (5GB) in 4.6 min.<sup>2</sup></p>
+                    </div>
+                    <div class="card-article__section-tv">
+                        <h4 class="card-article__section-tv--title">Custom TV</h4>
+                        <p class="card-article__section-tv--text">Pick a package that fits your lifestyle.</p>
+                        <span class="card-article__section-tv--list-title">View channel lineup</span>
+                        <ul class="inline-list tv-list">
+                            <li>
+                                <img src="./assets/img/showtime-logo.svg" alt="">
+                                <span>SHOWTIME® included for 2 years.</span>
+                            </li>
+                        </ul>
+                        <p class="card-article__section-tv--subtext">Multi-room DVR Enhanced Service free for 2 years.</p>
+                    </div>
+                    <div class="card-article__section-phone">
+                        <h4 class="card-article__section-phone--title">Home Phone</h4>
+                        <p class="card-article__section-phone--text">Unlimited nationwide calling.</p>
+                    </div>
+                    <div class="card-article__footer">
+                        <p class="card-article__footer--text">2-year price guarantee</p>
+                    </div>
+                </article>
+            </div>
+            <div class="columns large-3 columns-wrap">
+                <article class="card-article">
+                    <div class="card-article__section-price">
+                        <h3 class="card-article__section-price--subtitle">150/150 Mbps Internet, Ultimate TV & Home Phone</h3>
+                        <span class="card-article__section-price--price">$124.99/mo</span>
+                        <p class="card-article__section-price--text">for 2 yrs. w/ 2-yr. agmt., + taxes, RSN, FDV, & other fees & $12/mo. STB equip. charge
+                            <sup>7</sup>
+                        </p>
+                    </div>
+                    <div class="card-article__section-internet">
+                        <h4 class="card-article__section-internet--title">150/150 Mbps Internet</h4>
+                        <span class="card-article__section-internet--subtext">Ideal for 8 devices.</span>
+                        <p class="card-article__section-internet--text">Download a 2-hr. HD video (5GB) in 4.6 min.<sup>2</sup></p>
+                    </div>
+                    <div class="card-article__section-tv">
+                        <h4 class="card-article__section-tv--title">Custom TV</h4>
+                        <p class="card-article__section-tv--text">Pick a package that fits your lifestyle.</p>
+                        <span class="card-article__section-tv--list-title">View channel lineup</span>
+                        <ul class="inline-list tv-list">
+                            <li>
+                                <img src="./assets/img/showtime-logo.svg" alt="">
+                                <span>SHOWTIME® included for 2 years.</span>
+                            </li>
+                        </ul>
+                        <p class="card-article__section-tv--subtext">Multi-room DVR Enhanced Service free for 2 years.</p>
+                    </div>
+                    <div class="card-article__section-phone">
+                        <h4 class="card-article__section-phone--title">Home Phone</h4>
+                        <p class="card-article__section-phone--text">Unlimited nationwide calling.</p>
+                    </div>
+                    <div class="card-article__footer">
+                        <p class="card-article__footer--text">2-year price guarantee</p>
+                    </div>                    
+                </article>
+            </div>
+        </div>
     </section>
 
     <section class="section section--shop-gig hidden-for-small-only">
@@ -373,6 +527,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>

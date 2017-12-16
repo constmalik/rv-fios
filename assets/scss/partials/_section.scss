@@ -244,11 +244,11 @@
 .section--gig {
     border-bottom: 2px solid #F2F2F2;
 }
-.section--tabs {
+.section--category {
     border-bottom: 2px solid #F2F2F2;
-    .tabs-row {
+    .category-row {
         .columns-wrap {
-            .tabs-list {
+            .category-list {
                 margin: 22px auto 0 -1.375rem;
                 li a {
                     // border-bottom: 2px solid red;
@@ -256,11 +256,19 @@
                     font-weight: bold;
                     color: #000;
                 }
+                li a:hover {
+                    border-bottom: 1px solid red;
+                }
             }
         }
     }
 }
 
+.section--pricing {
+    padding-top: 60px;
+    padding-bottom: 121px;
+    
+}
 .section--shop-gig {
     background-color: #F6F6F6;
     padding-top: 88px;
