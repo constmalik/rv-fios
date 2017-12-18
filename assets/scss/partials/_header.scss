@@ -81,6 +81,91 @@
     }
     @media screen and (max-width:320px) {
         border-bottom: none;
-        margin-bottom: 36px;
     }
+}
+.header-gig {
+    margin-top: 12px;
+    border-bottom: 2px solid #F2F2F2;
+    .nav-wrap {
+        .fios-logo-wrap {
+            margin-top: 36px;
+        }
+    }
+    .nav-wrap-small {
+        line-height: 1.2;
+        .bar-wrap {
+            line-height: 2;
+            display: inline;
+            .fa-bars {
+                font-size: 18px;
+                color: #747676;
+            }
+        }
+        .fios-logo-wrap {
+            margin-bottom: 9px;
+            margin-left: 20px;
+        }
+        .phone-wrap {
+            .fa-phone {
+                font-size: 18px;
+                color: #D52B1E;
+            }
+            p {
+                font-size: 18px;
+                font-weight: bold;
+                display: inline;
+            }
+        }
+    }
+    .aux-nav {
+        // margin-bottom: 62px;
+        &__links-left {
+            float: left;
+            a {
+                color: #4B4B4B;
+                font-size: 12px;
+            }
+            li:hover {
+                border-top: 2px solid black;
+            }
+        }
+        &__links-right {
+            float: right;
+            li > * {
+                display: inline;
+                color: #4B4B4B;
+            }
+            a {
+                color: #4B4B4B;
+                font-size: 12px;
+            }
+        }
+    }
+    .main-nav {
+        &__links {
+            float: left;
+            margin-top: 55px;
+            a {
+                font-size: 24px;
+                font-weight: bold;
+                color: black;
+            }
+        }
+        &__phone-wrap {
+            margin-top: 55px;
+            line-height: 0;
+            span {
+                font-size: 12px;
+            }
+            p {
+                color: #D52B1E;
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+    }
+    @media screen and (max-width:320px) {
+        border-bottom: none;
+        margin-bottom: 36px;
+    }    
 }
