@@ -2876,6 +2876,8 @@ th.hide-for-touch {
     .header .aux-nav__links-left a {
       color: #4B4B4B;
       font-size: 12px; }
+    .header .aux-nav__links-left li:hover {
+      border-top: 2px solid black; }
   .header .aux-nav__links-right {
     float: right; }
     .header .aux-nav__links-right li > * {
@@ -2987,6 +2989,9 @@ th.hide-for-touch {
       color: #333333;
       font-size: 14px;
       line-height: 1.2; }
+    .section--verizon-fios .customize-fios-wrap .columns-wrap span {
+      font-weight: bold;
+      text-decoration: underline; }
   @media screen and (max-width: 320px) {
     .section--verizon-fios {
       display: none; } }
@@ -3012,6 +3017,9 @@ th.hide-for-touch {
       color: #333333;
       font-size: 14px;
       line-height: 1.2; }
+    .section--upgrade .upgrade-fiber-wrap .columns-wrap span {
+      font-weight: bold;
+      text-decoration: underline; }
 
 .section--why-fios {
   background-color: #F6F6F6;
@@ -3090,7 +3098,7 @@ th.hide-for-touch {
       font-weight: bold;
       color: #000; }
     .section--category .category-row .columns-wrap .category-list li a:hover {
-      border-bottom: 1px solid red; }
+      border-bottom: 2px solid red; }
 
 .section--pricing {
   padding-top: 60px;
@@ -3231,6 +3239,9 @@ th.hide-for-touch {
   .bundles-article__link a {
     color: #CD040B;
     font-weight: bold; }
+  .bundles-article span {
+    font-weight: bold;
+    text-decoration: underline; }
 
 .gig-article__title {
   font-size: 36px;

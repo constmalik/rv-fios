@@ -104,6 +104,10 @@
                 font-size: 14px;
                 line-height: 1.2;
             }
+            span {
+                font-weight: bold;
+                text-decoration: underline;
+            }
         }
     }
     @media screen and (max-width: 320px) {
@@ -141,6 +145,10 @@
                 color: #333333;
                 font-size: 14px;
                 line-height: 1.2;
+            }
+            span {
+                font-weight: bold;
+                text-decoration: underline;
             }
         }        
     }
@@ -257,7 +265,7 @@
                     color: #000;
                 }
                 li a:hover {
-                    border-bottom: 1px solid red;
+                    border-bottom: 2px solid red;
                 }
             }
         }

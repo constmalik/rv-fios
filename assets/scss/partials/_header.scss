@@ -40,6 +40,9 @@
                 color: #4B4B4B;
                 font-size: 12px;
             }
+            li:hover {
+                border-top: 2px solid black;
+            }
         }
         &__links-right {
             float: right;
